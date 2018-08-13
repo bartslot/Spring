@@ -94,8 +94,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1088794718809304}
-  m_LocalRotation: {x: -0, y: 6.8358206e-21, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.4262056, z: -0.0000018882758}
+  m_LocalRotation: {x: -0.0018123647, y: 0.10621018, z: 0.00029648776, w: 0.9943421}
+  m_LocalPosition: {x: 0.00029293698, y: 1.4240129, z: -0.0031886683}
   m_LocalScale: {x: 0.48423517, y: 1.3518013, z: 0.48423517}
   m_Children: []
   m_Father: {fileID: 4660995007645062}
@@ -107,9 +107,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1070911604203136}
-  m_LocalRotation: {x: -0, y: -2.1488889e-18, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 4.44, z: -0.0000012588506}
-  m_LocalScale: {x: 0.01, y: 1.8, z: 0.01}
+  m_LocalRotation: {x: 0.0011563554, y: 0.106210575, z: -0.000020744148, w: 0.994343}
+  m_LocalPosition: {x: -0.0005476475, y: 4.4377937, z: -0.0041605216}
+  m_LocalScale: {x: 0.05, y: 1.8, z: 0.01}
   m_Children: []
   m_Father: {fileID: 4660995007645062}
   m_RootOrder: 1
@@ -120,8 +120,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1245523582555810}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.9, y: 0, z: -2.13}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
   - {fileID: 4890253132344816}
@@ -136,8 +136,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1522819822356416}
-  m_LocalRotation: {x: 0.72575116, y: 0.0043571787, z: 0.005080143, w: 0.68792474}
-  m_LocalPosition: {x: 0.00042915344, y: 6.3601217, z: -0.00077796966}
+  m_LocalRotation: {x: 0.72575116, y: 0.00435718, z: 0.0050801425, w: 0.6879248}
+  m_LocalPosition: {x: 0.00042915344, y: 6.3601217, z: -0.00077797263}
   m_LocalScale: {x: 0.32999998, y: 0.33000013, z: 0.05000003}
   m_Children: []
   m_Father: {fileID: 4660995007645062}
@@ -193,7 +193,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 39743e75ff07fee4ab75ce0b247908a8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -228,7 +228,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 39743e75ff07fee4ab75ce0b247908a8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -324,7 +324,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0.5000001, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0009582569, y: 6.053892, z: 0.4919579}
+  m_ConnectedAnchor: {x: 4.9009585, y: 10.753892, z: 3.6919577}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -358,7 +358,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 1, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -2.7051303e-22, y: -0.92332953, z: -0.000062942534}
+  m_ConnectedAnchor: {x: 0.0000012863893, y: -0.9233294, z: -0.000058487058}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -392,7 +392,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 1, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.006143466, y: 0.021818588, z: 2.397841}
+  m_ConnectedAnchor: {x: -0.0063276486, y: 0.022092702, z: 2.4420075}
   m_UseSpring: 1
   m_Spring:
     spring: 0
@@ -438,7 +438,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 3d13ea1401aa7ce4d802021583b1c3b8,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 58afa696c1712da42947dba1a56a9001, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 15d4e7255f2c8bd4b90218d0cc63ef00, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.7
   m_Pitch: 1
@@ -535,7 +535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34f2f13a66589f24ebd47a675aa2d98b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioClip: {fileID: 8300000, guid: 58afa696c1712da42947dba1a56a9001, type: 3}
+  audioClip: {fileID: 8300000, guid: 15d4e7255f2c8bd4b90218d0cc63ef00, type: 3}
 --- !u!136 &136198509843224220
 CapsuleCollider:
   m_ObjectHideFlags: 1

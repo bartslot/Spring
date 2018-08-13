@@ -5,7 +5,7 @@ using UnityEngine;
 public class effectPlayer : MonoBehaviour {
 
     // Use this for initialization
-    void Start()
+    void cubeWall()
     {
         for (int y = 0; y < 5; y++)
         {
