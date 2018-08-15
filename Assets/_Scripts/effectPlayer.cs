@@ -5,7 +5,7 @@ using UnityEngine;
 public class effectPlayer : MonoBehaviour {
 
     // Use this for initialization
-    void cubeWall()
+    public void cubeWall()
     {
         for (int y = 0; y < 5; y++)
         {
@@ -17,9 +17,16 @@ public class effectPlayer : MonoBehaviour {
             }
         }
     }
-
-    // Update is called once per frame
-    void Update () {
-		
-	}
+    public void sphereDrop()
+    {
+        for (int y = 0; y < 5; y++)
+        {
+            for (int x = 0; x < 5; x++)
+            {
+                GameObject sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+                sphere.AddComponent<Rigidbody>();
+                sphere.transform.position = new Vector3(x, y, 0);
+            }
+        }
+    }
 }

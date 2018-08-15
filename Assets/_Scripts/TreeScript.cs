@@ -123,6 +123,7 @@ public class TreeScript : MonoBehaviour {
                 {
                     //Haal instantiate weg als je object wil gebruiken uit de scene ipv nieuwe objecten wil spawnen
                     jointObj = Instantiate(linker.prefab);
+                    
                 }
             }
             if(jointObj == null) {jointObj =  new GameObject(); }
@@ -155,7 +156,9 @@ public class TreeScript : MonoBehaviour {
             Transform jointObj = bodyObject.transform.Find(jt.ToString());
             jointObj.localPosition = GetVector3FromJoint(sourceJoint);
 
-            //LineRenderer lr = jointObj.GetComponent<LineRenderer>();
+//on/off
+            // LineRenderer lr = jointObj.GetComponent<LineRenderer>();
+
             if (targetJoint.HasValue)
             {
                 jointObj.transform.localRotation = Quaternion.LookRotation(GetVector3FromJoint(targetJoint.Value) - jointObj.localPosition);

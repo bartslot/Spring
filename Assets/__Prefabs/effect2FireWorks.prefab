@@ -269,7 +269,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _bpm: 132
-  _beats: 132
+  _beats: 3
 --- !u!198 &198229432774772418
 ParticleSystem:
   m_ObjectHideFlags: 1
